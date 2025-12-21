@@ -4,13 +4,6 @@ node_modules/
 # los
 *.log
 
-# build folder
-dist/
-build/
-
 # macOS
 .DS_Store
 
-# IDE
-.vscode/
-.idea/e
