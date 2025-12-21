@@ -141,6 +141,6 @@ git push -u origin master
 
 ### Project manager
 - 여러개의 프로젝트 동시 작업
-- 깃 레보 여러개
+- 깃 레포가 여러개
 - 프로젝트 즐겨찾기
 
