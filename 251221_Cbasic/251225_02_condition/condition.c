@@ -43,7 +43,7 @@ int main()
     x++;    // 10 + 1
     x--;    // (10 + 1) - 1
     x += 2; // ((10 + 1) - 1) +2
-    x -= 2; // (// ((10 + 1) - 1) +2) -2
+    x -= 2; // (((10 + 1) - 1) +2) -2
     x *= 3;
     x /= 4;
 
@@ -64,7 +64,7 @@ int main()
     // scanf("%s", &age); // abc defg 입력 시, _에 의해 abc만 저장
     fgets("%s", sizeof(name), stdin);
     name[strlen(name) - 1] = '\0'; // 마지막 칸 내용을 \n -> \0 으로 변경
-    // strlen 은 string.h 필요
+    // strlen은 string.h 필요
 
     printf("name : %s \n", name);
     printf("age : %d \n", age);
